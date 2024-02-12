@@ -1,6 +1,4 @@
-console.log('Hello World');
-
-<!DOCTYPE html>
+console.log('Hello World');<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,25 +12,46 @@ console.log('Hello World');
             background-color: #f0f0f0;
         }
         header {
-            background-color: #ffffff;
-            color: #000000;
+              background-color: #000000;
+            color: aqua;
             text-align: center;
             padding: 20px 0;
+        }
+        .Contact h2{
+            color:
+             black;
+        }
+        footer p{
+            color: black;
         }
         .Contact{
             display: grid;
             justify-content: center;
             align-items: center;
+
+            background-color: #616060;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
         }
         .skills{
+            
             display: grid;
             justify-content: center;
             align-items: center;
         }
+        .skills ul li {
+            color: aqua;
+        }
+        .skills h2{
+            color: aqua;
+        }
        
         section {
-            background-color: #fff;
+            background-color: #000000;
             padding: 20px;
+        
             margin: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -48,6 +67,7 @@ console.log('Hello World');
             padding: 0;
         }
         li {
+           
             margin-bottom: 10px;
         }
         .project-card {
@@ -80,14 +100,29 @@ console.log('Hello World');
         .project-card a:hover {
             background-color: #555;
         }
+        footer ul li a{
+            color: rgb(58, 57, 57);
+            text-decoration: none;
+        }
+        footer ul li a:hover{
+            color: rgb(0, 0, 0);
+            background-color: rgb(136, 138, 138);
+            
+        }
+        .exp h2, p{
+            color: aqua;
+        }
+       
     </style>
 </head>
 <body>
+
     <header>
+       
         <h1>About Me</h1>
     </header>
 
-    <section>
+    <section class="exp">
         <h2>Introduction</h2>
         <p>Hello there! I'm Omparth Maruti Chougale, a passionate <b>Software Engineer</b>  with a keen interest to watch Anime. I love to Code and to develop Websites.</p>
     </section>
@@ -103,7 +138,7 @@ console.log('Hello World');
         </ul>
     </section>
 
-    <section>
+    <section >
         <h2>Experience</h2>
         <p>I am fresher Software Field. Throughout my career, I've worked on projects related to Web Development</p>
     </section>
@@ -119,7 +154,7 @@ console.log('Hello World');
             <img src="/wallpaperflare.com_wallpaper (1).jpg" alt="Project 1">
             <h3>A Cool Anime Website</h3>
             <p>This is a brief description of Project 1. It involves parallax Effect.</p>
-            <a href="https://github.com/omparth/Anime-Website">More Details</a>
+            <a href="https://peppy-youtiao-5a04cc.netlify.app/">More Details</a>
         </div>
         <div class="project-card">
             <img src="/2.jpg" alt="Project 2">
