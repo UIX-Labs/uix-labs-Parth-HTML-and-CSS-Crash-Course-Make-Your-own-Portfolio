@@ -1,1 +1,50 @@
 /* Start coding below for FLEX GAME TASK*/
+.container {
+    display: flex;
+    gap: 1rem;
+    padding: 25px;
+  }
+  
+  .menu {
+    height: 100%;
+    flex-basis: 20%;
+    background-color: rgb(18, 18, 145);
+    padding: 1rem;
+  }
+  .menu h2{
+    color: white;
+  }
+  .box p{
+    
+    text-align: center;
+    padding: 10px 0px;
+    
+  }
+  .card p{
+    text-align: center;
+    padding: 10px 0px;
+    height: 1px;
+  }
+  .menu .box {
+    /* background-color: gray; */
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    flex-basis: 60%;
+    background-color: rgb(49, 204, 49);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
