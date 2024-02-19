@@ -1,209 +1,700 @@
-console.log('Hello World');
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style> 
+    /* navbar */
+
+.navbar {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 23px;
+    background-color:#003E66 ;
+    color: #00D8FF;
+}
+
+.navbar h1 {
+    font-family: Revalia;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    font-family: Revalia;
+    color: #00D8FF;
+    text-decoration: none;
+    padding: 0 23px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.btn button {
+    background:transparent;
+    color: #00D8FF;
+    font-family: Roboto;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.navbar img {
+    margin-left: 10px;
+ 
+}
+
+
+
+/* body */
+body {
+
+    background-color: #003E66;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #00D8FF;
+    margin: 0;
+    padding: 0;
+
+}
+.John{
+    height: 500px;
+    font-family: Revalia;
+}
+ .John h1, h2{
+    color: #00D8FF;
+}
+.John h1{
+    margin-top: -90px;
+    margin-right:-30px ;
+    font-size: 3rem;
+}
+.John h2{
+ margin-bottom: -50px;
+ margin-left: 30px;
+ font-size: 3rem;
+}
+.John img{
+    margin-left:150px;
+}
+.John h3,
+h4 {
+    margin-left: 10px;
+}
+.John{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004572;
+}
+
+
+.btn button {
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    background: transparent;
+    padding: 6px 8px;
+    margin-left: 10px;
+}
+
+/* Get To Know ME */
+.Get_konow_me{
+    background-color: #003E66;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.Get_konow_me{
+    background-color: #003E66;
+    display: inline-block;
+    align-items: center;
+    
+    justify-content: center;
+    width: 1120px;
+    
+}
+.containers{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-left:200px;
+    max-width:300;
+    background-color: #003E66;
+    
+}
+
+.containers h3{
+    text-shadow: 0px 0px 3px  white;
+    line-height: 40px;
+    font-family: Revalia;
+  width: 350px;
+  color:  #00D8FF;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  font-size:30px;
+  font-weight: 600;
+}
+.containers h4{
+    margin-left: 0;
+}
+
+.containers strong{
+  /* margin-left: 80px; */
+   display: inline;
+   font-family: Roboto;
+   line-height: 38.4px;
+   letter-spacing: 3.5%;
+   justify-content: center;
+   align-items: center;
+   color: #9ABEE9;
+   
+    
+}
+
+
+/* skills */
+
+.myskills h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    font-weight: 400;
+    font-size: 40px;
+    font-family:  Revalia;
+}
+
+.containerss {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	min-height: 27vh;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+
+
+.image-container {
+	width: 250px;
+  
+   
+	max-width: 300px;
+	margin-bottom: 20px;
+}
+
+.image-container img {
+	width: 50px;
+    filter: invert(60%);
+	height: auto;
+}
+
+.text-container {
+    color:  #9ABEE980;
+	text-align: center;
+    font-weight: 500;
+    font-size:  20px;
+}
+
+.image-container h2 {
+	margin-bottom: 10px;
+    color:  #9ABEE980;
+}
+ 
+
+
+
+
+
+
+
+.explore-btn button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00D8FF;
+    padding: 4px 15px;
+    color: #003E66;
+    border-radius: 10px;
+    /* margin-left: 29px; */
+    cursor: pointer;
+    background-color: #00D8FF;
+}
+.explore-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    
+}
+.contact {
+    background-color: gray;
+
+}
+
+
+/* project */
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project1 img{
+    float: left;
+    /* border: 2px solid red; */
+
+}
+.project-text1{
+    line-height: 20px;
+    margin-top: 90px;
+    margin-right: 119px;
+    float: right;
+}
+
+.project2{
+    margin-left: 31px;
+    float: right;
+    position:static;
+}
+.project2 img{
+    float: right;
+
+    margin-top: -44px;
+    margin-right: 120px;
+}
+.project-text2{
+  display: contents;
+    /* border: 2px solid red; */
+    width: 90vw;
+    line-height: 20px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 500px;
+}
+.project-text2 h1, b{
+    margin: 90px;
+width: 100vw;
+padding: 2px 34px;
+    display: contents;
+}
+.project3{
+    float: left;
+    position:static;
+    display: flex;
+}
+.project3 img{
+    float: left;
+    
+}
+
+
+.project-text3{
+
+    line-height: 20px;
+    margin-top: 90px;
+    margin-right: 119px;
+    float: right;
+}   
+
+.project4{
+    float: right;
+
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.project4 img{
+    float: right;
+
+    margin-top: 30px;
+    margin-right: 120px;
+
+}
+
+.project-text4{
+    display: contents;
+    border: 2px solid red;
+    width: 90vw;
+    line-height: 20px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 500px;
+}
+
+.project-text4 h1, b{
+    margin: 90px;
+    width: 100vw;
+    padding: 2px 34px;
+        display: contents;
+}
+
+
+
+
+.projects {
+    /* margin-left: px; */
+    height: 300vh;
+    position: relative;
+    background-color: #004572    ;
+    line-height: 20px;
+}
+
+
+
+
+/* contact section */
+
+.contact{
+    font-family:Roboto;
+    /* display: flex; */
+    padding: 20px 5px;
+    background-color:  #003E66;
+}
+
+.right input{
+    padding: 6px 50px;
+    margin: 5px 23px;
+    border-radius: 5px;
+    border: none;
+    width: 79%;
+    letter-spacing: 0.2rem;
+    color: black;
+    
+
+}
+.right textarea{
+    padding: 6px 50px;
+    letter-spacing: 0.2rem;
+    margin: 5px 23px;
+    color: #3F7090;
+    border: none;
+    border-radius: 5px;
+    width: 79%;
+}
+.right h2{
+    margin-left: 25px;
+}
+.submitbtn{
+    margin-left:250px;
+    background: transparent;
+    border:1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+}
+.right h2{
+    color:  #003E66;
+}
+.right{
+    padding: 11px 0px;
+
+    float: right;
+    margin-right: 90px;
+    width: 50%;
+    border-radius: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+    background-color: #9ABEE9;
+    color: black;
+
+}
+
+.left{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -19px;
+    letter-spacing: 19%;
+    word-spacing: 0.2rem;
+    font-weight: 400;
+    font-size: 32px;
+   
+}
+
+
+
+.lefticons img{
+    padding: 0px 20px;
+    margin-left: -22px;
+    gap: 15px;
+}
+
+
+/* last */
+.footer{
+    font-family: Inter;
+display: flex;    
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+}
+.last{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 90px;
+    line-height: 50px;
+}
+
+    </style>
 </head>
 
 <body>
-    <section id="Home"></section>
-    <h1>Doe.</h1>
-    <div class="navbar">
+
+
+    <nav class="navbar">
+        <h1>Doe.</h1>
         <ul>
-            <li>ABOUT</li>
-            <li>SKILLS</li>
-            <li>PROJECTS</li>
-            <li>REVIEWS</li>
+            <li><a href="https://www.google.com">ABOUT</a></li>
+            <li><a href="#">SKILLS</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">REVIEWS</a></li>
+
 
         </ul>
-        <img src="/phone.icon.png" alt="Css Img" width="20px" height="20px">
-    </div>
-
-    <div class="btn">
-        <button>
-            <bold>Contact Me</bold>
-        </button>
-    </div>
 
 
-    <section class="abtme" id="abtme">
-        <div>
+
+        <span class="btn">
+            <img src="/phone.icon.png" alt="Css Img" width="20px" height="20px">
+
+            <button>
+                <bold>Contact Me</bold>
+            </button>
+        </span>
+    </nav>
+    <section id="abtme">
+        <div class="John">
             <h1>John Doe</h1>
             <img src="/johnDoe.png" alt="Css Img" width="300px" height="300px">
-            <h1><b>Front End Developer</b></h1>
-            <h3>Get To Know me</h3>
-            <p><b>I'm a seasoned front-end web developer with a passion for crafting exceptional digital experiences.
-                    With over 2 years of hands-on experience, i bring a deep proficiency in HTML, CSS, JavaScript,
-                    TypeScript, and a keen mastery of modern frameworks like React.js, React Native, Svelte.js. I
-                    specialize in building responsive, interactive, and visually appealing user interfaces.
-                    Additionally, my proficiency in Firebase ensures secure and efficient backend integration, making me
-                    a versatile and dynamic developer ready to tackle any project</b>
-        </div>
-        </p>
+            <h2><strong>Front End Developer</strong></h2>
 
-        <h4>
-            <div>Name:John Doe</div>
-            <div>Age:24</div>
-            <div>Experience: 2years</div>
-        </h4>
+        </div>
+        <div class="Get_konow_me">
+
+            <div class="containers">
+                <h3>Get To Know me</h3>
+
+                <p><strong>I'm a seasoned front-end web developer with a passion for crafting exceptional digital
+                        experiences.
+                        With over 2 years of hands-on experience, i bring a deep proficiency in HTML, CSS, JavaScript,
+                        TypeScript, and a keen mastery of modern frameworks like React.js, React Native, Svelte.js. I
+                        specialize in building responsive, interactive, and visually appealing user interfaces.
+                        Additionally, my proficiency in Firebase ensures secure and efficient backend integration,
+                        making me
+                        a versatile and dynamic developer ready to tackle any project</strong>
+                </p>
+                <h4>
+                    <div><strong> Name:John Doe</strong> </div>
+                    <div><strong>Age:24</strong> </div>
+                    <div><strong> Experience: 2years</strong> </div>
+                </h4>
+            </div>
         </div>
     </section>
 
     <!-- skills -->
-    <section class="skills" id="skills">
 
-        <h1>SKILLS</h1>
+    <section class="myskills">
 
-        <h4> <img src="/html.icon.png" alt="Css Image" width="30px" height="30px">
-            <div class="skilltext">HTML</div>
-        </h4>
+        <h1>Skills</h1>
+        <div class="containerss">
 
-        <h4> <img src="/css.icon.png" alt="Css Image" width="30px" height="30px">
-            <div class="skilltext">CSS</div>
-        </h4>
 
-        <h4> <img src="/js.icon.png" alt="Css Image" width="30px" height="30px">
-            <div class="skilltext">JavaScript</div>
-        </h4>
+            <div class="image-container">
+                <img src="/html.icon.png" alt="Sample Image" width="30px" height="30px">
+                <h2>HTML</h2>
+            </div>
 
-        <h4> <img src="/ts.icon.png" alt="Css Image" width="30px" height="30px">
-            <div class="skilltext">TypeScript</div>
-        </h4>
+            <div class="image-container">
+                <img src="/css.icon.png" alt="Sample Image" width="30px" height="30px">
+                <h2>CSS</h2>
+            </div>
+            <div class="image-container">
+                <img src="/js.icon.png" alt="Sample Image" width="30px" height="30px">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="image-container">
+                <img src="/ts.icon.png" alt="Sample Image" width="30px" height="30px">
+                <h2>TypeScript</h2>
+            </div>
+            <div class="image-container">
+                <img src="/svelte.icon.png" alt="Sample Image" width="30px" height="30px">
+                <h2>Svelte</h2>
+            </div>
+            <div class="image-container">
+                <img src="/firebase.icon.png" alt="Sample Image" width="20px" height="20px">
+                <h2>Firebase</h2>
+            </div>
+            <div class="image-container">
+                <img src="/react.icon.png" alt="Sample Image" width="20px" height="20px">
+                <h2>React.js</h2>
+                <h2>React Native</h2>
+            </div>
 
-        <h4> <img src="/svelte.icon.png" alt="Css Image" width="30px" height="30px">
-            <div class="skilltext">Svelte.js</div>
-        </h4>
 
-        <h4> <img src="/firebase.icon.png" alt="Css Image" width="30px" height="30px">
-            <div class="skilltext">Firebase</div>
-        </h4>
-        <h4> <img src="/react.icon.png" alt="Css Image" width="30px" height="30px">
-            <div class="skilltext">Reasctjs</div>
-            <div class="skilltext">React native</div>
-        </h4>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="title">
+            <h1>Projects</h1>
+        </div>
     </section>
     <section class="projects" id="projects">
-        <h1>Projects</h1>
 
-        <div class="project-text">
-
-
-
+        <div class="project1">
             <img src="/screen1.png" alt="css img" width="400px" height="400px">
-            <h1><b>Taskbot, Real Time Task Manager</b></h1>
-            <p>React.js, Firebase</p>
-            <p><b>Developed a dynamic task management application using React.js and Firebase.</b></p>
-            <p><b>Users can create, update, and delete tasks in time across devices. real-time across devices.</b></p>
-            <p><b>Integrated Firebase Authentication for secure user access.</b></p>
-            <div class="explore-btn">
-                <button>Explore</button>
-            </div>
-            <div class="project-text">
-
-
-
-                <img src="/screen2.png" alt="css img" width="400px" height="400px">
+            <div class="project-text1">
                 <h1><b>Taskbot, Real Time Task Manager</b></h1>
-                <p>React.js, typescript, Firebase</p>
-                <p><b>Developed a responsive e-commerce Website using React.js and Typescript.</b></p>
-                <p><b>Integrated Firebase for user authentication and firestore forproduct data storage.</b></p>
-                <p><b>Implemented secure payment processing with stripe API. </b></p>
-
+                <p>React.js, Firebase</p>
+                <p><b>Developed a dynamic task management application using React.js and Firebase.</b></p>
+                <p><b>Users can create, update, and delete tasks in time across devices. real-time across devices.</b>
+                </p>
+                <p><b>Integrated Firebase Authentication for secure user access.</b></p>
                 <div class="explore-btn">
                     <button>Explore</button>
                 </div>
+            </div>
 
-                <div class="project-text">
+            <div class="project2">
 
-
-
-                    <img src="/screen3.png" alt="css img" width="400px" height="400px">
-                    <h1><b>FinanceSage, Personal Finance Tracker </b></h1>
-                    <p>Svelte.js, Firebase</p>
-                    <p><b>Created a lightweight personal finance tracking web app using Svelte.js and Firebase.</b></p>
-                    <p><b>Users can log income and expenses, visualize financial data and set budget goals Firebase
-                            Authentication for user management and Firestore for data storage.</b></p>
-
-                    </b></p>
+                <img src="/screen2.png" alt="css img" width="400px" height="400px">
+                <div class="project-text2">
+                    <h1><b>Taskbot, Real Time Task Manager</b></h1>
+                    <p>React.js, typescript, Firebase</p>
+                    <p><b>Developed a responsive e-commerce Website using React.js and Typescript.</b></p>
+                    <p><b>Integrated Firebase for user authentication and firestore forproduct data storage.</b></p>
+                    <p><b>Implemented secure payment processing with stripe API. </b></p>
 
                     <div class="explore-btn">
                         <button>Explore</button>
                     </div>
-
-
                 </div>
 
+                <div class="project3">
 
+                    <img src="/screen3.png" alt="css img" width="400px" height="400px">
+                    <div class="project-text3">
+                        <h1><b>FinanceSage, Personal Finance Tracker </b></h1>
+                        <p>Svelte.js, Firebase</p>
+                        <p><b>Created a lightweight personal finance tracking web app using Svelte.js and Firebase.</b>
+                        </p>
+                        <p><b>Users can log income and expenses, visualize financial data and set budget goals Firebase
+                                Authentication for user management and Firestore for data storage.</b></p>
+
+                        </b></p>
+
+                        <div class="explore-btn">
+                            <button>Explore</button>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="project4">
+
+                    <img src="/screen3.png" alt="css img" width="400px" height="400px">
+                    <div class="project-text4">
+                        <h1><b>FinanceSage, Personal Finance Tracker </b></h1>
+                        <p>Svelte.js, Firebase</p>
+                        <p><b>Created a lightweight personal finance tracking web app using Svelte.js and Firebase.</b>
+                        </p>
+                        <p><b>Users can log income and expenses, visualize financial data and set budget goals Firebase
+                                Authentication for user management and Firestore for data storage.</b></p>
+
+                        </b></p>
+
+                        <div class="explore-btn">
+                            <button>Explore</button>
+                        </div>
+                    </div>
+                </div>
     </section>
 
-
     <section class="contact" id="contact">
-        <h1>Get In Touch</h1>
-
-
-        <div class="container">
-            <h2>Contact</h2>
+        <div class="right">
+            <h2>HAVE AN OPINION? FEEL FREE TO SHARE</h2>
             <form action="mailto:omparthchougale2182002@gmail.com">
-                <div>Name</div>
-                <input type="text" name="Name" placeholder="Enter Your Name">
+
+                <input type="text" name="Name" placeholder="Enter Email Address">
                 <br>
 
 
-                <div>Email</div>
-                <input type="email" name="Email" placeholder="Enter Your Email">
-                <br>
-                Message
-                <br>
-
-                <textarea name="text" cols="50" rows="5" placeholder="Add Comments"></textarea>
-                <button class="submitbtn">Submit</button>
-
+                <textarea name="text" cols="50" rows="1" placeholder="Add Comments"></textarea>
+                <div>
+                    <button class="submitbtn">Submit</button>
+                </div>
         </div>
         </form>
         <br>
+        <section class="left">
+            <div class="GIT">
+                <h1>Get In Touch</h1>
+                <img src="/phone.icon.png" alt="css img" width="30px" height="30px">
+                <span>+918062525694</span>
+            </div>
 
-        <div class="Contact-info">
-            <img src="/phone.icon.png" alt="css img" width="20px" height="20px">
-            <span>+918062525694</span>
-        </div>
+            <div class="GIT">
+                <img src="/gmail-logo-24.png" alt="css img" width="30px" height="30px">
+                <span>johndoe@gmail.com</span>
 
-        <div class="Contact-info">
-            <img src="/gmail-logo-24.png" alt="css img" width="20px" height="20px">
-            <span>johndoe@gmail.com</span>
-        </div>
+            </div>
 
-        <br>
-        <span class="instagram">
-            <img src="/instagram.icon.png" alt="css img" width="20px" height="20px">
-            <img src="/linkedin.icon.png" alt="css img" width="20px" height="20px">
-            <img src="/twitterX.icon.png" alt="css img" width="20px" height="20px">
-            <img src="/slack.icon.png" alt="css img" width="20px" height="20px">
+            <div class="lefticons" id="lefticons">
 
-
-        </span>
-        <br>
-
-        <div class="last">HOME</div>
-        <br>
-        <div class="last">ABOUT</div>
-        <br>
-        <div class="last">SKILLS</div>
-        <br>
-        <div class="last">PROJECTS</div>
-        <br>
-        <div class="last">REVIEWS</div>
-    </section>
-
-
-
-
+                <img src="/instagram.icon.png" alt="css img" width="30px" height="30px">
+                <img src="/linkedin.icon.png" alt="css img" width="30px" height="30px">
+                <img src="/twitterX.icon.png" alt="css img" width="30px" height="30px">
+                <img src="/slack.icon.png" alt="css img" width="30px" height="30px">
+            </div>
+        </section>
+        <section class="footer">
+            <div class="last">HOME</div>
+            <br>
+            <div class="last">ABOUT</div>
+            <br>
+            <div class="last">SKILLS</div>
+            <br>
+            <div class="last">PROJECTS</div>
+            <br>
+            <div class="last">REVIEWS</div>
+        </section>
 </body>
 
 </html>
